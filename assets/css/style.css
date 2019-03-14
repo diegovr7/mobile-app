@@ -7,10 +7,15 @@ body {
 }
 
 section {
-    padding: 60px;
+    padding: 60px 10px;
 }
 
-h3 { font-size: 36px; font-weight: 600; }
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+}
+
+h1 { font-size: 50px; font-weight: 600;}
+h3 { font-size: 40px; font-weight: 300; }
 
 p {
     margin-bottom: 0px;
@@ -36,20 +41,47 @@ a:hover {
     text-decoration: none;
 }
 
+.text-muted {
+    color:rgba(0, 0, 0, 0.3) !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .primary-btn {
     background-color: #377dff;
     color: #ffffff;
-    font-weight: 300;
+    font-weight: 600;
     padding: 7px 22px;
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 2px;
+    border: 1px solid #377dff;
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    min-height: 40px;
 }
 
 .secondary-btn {
-    font-weight: 300;
+    background-color: transparent;
+    font-weight: 600;
     padding: 7px 22px;
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 2px;
+    border: 1px solid #377dff;
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    min-height: 40px;
+}
+
+.primary-btn:hover {
+    color: #ffffff;
+    opacity: .95;
+}
+
+.secondary-btn:hover {
+    background-color: #377dff;
+    color: #ffffff;
 }
 
 .topmargin-sm { margin-top: 30px; }
@@ -59,8 +91,16 @@ a:hover {
     background-color: #1a1a1a !important;
 }
 
-.bg-white {
+.bg-light {
     background-color: #ffffff !important;
+}
+
+.bg-light-grey {
+    background-color: #f8f9fa !important;
+}
+
+.divider {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .heading-block {
@@ -74,15 +114,24 @@ a:hover {
     font-weight: 300;
 }
 
-
 .pricing-box {
-    border: 1px solid #efefef;
+    font-weight: 300;
+    border: 1px solid #ced4da;
     border-radius: 10px;
     text-align: center;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 40px 20px;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.pricing-box:hover {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .pricing-box h4 {
@@ -92,6 +141,31 @@ a:hover {
 .pricing-box span {
     font-size: 48px;
     font-weight: 600;
+}
+
+.not-included {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    min-height: 40px;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #footer, #footer a  {
@@ -119,6 +193,9 @@ a:hover {
     }
     .footer-link {
         padding: 0px;
+    }
+    .primary-btn, .secondary-btn {
+        max-width: none;
     }
 }
 
