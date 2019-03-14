@@ -1,3 +1,11 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Mobile App Template v1.0.0 (https://themesbootstrap.com.mx/templates/mobile-app-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/mobile-app/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 body {
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
@@ -20,6 +28,10 @@ p {
     margin-bottom: 0px;
     color: #495057;
     line-height: 1.7;
+}
+
+b {
+    font-weight: 600;
 }
 
 dl, ol, ul {
@@ -126,6 +138,21 @@ a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.heading-block {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.heading-block p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*/////////////////////////////////////////
+Navbar
+////////////////////////////////////////*/
+
 .navbar {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -149,20 +176,13 @@ a:hover {
     max-width: 220px;
 }
 
-.heading-block {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-.heading-block p {
-    font-size: 18px;
-    font-weight: 300;
-}
-
 #intro {
     padding: 120px 0;
 }
+
+/*/////////////////////////////////////////
+Pricing Box
+////////////////////////////////////////*/
 
 .pricing-box {
     font-weight: 300;
@@ -198,6 +218,10 @@ a:hover {
     color: rgba(0, 0, 0, 0.3);
 }
 
+/*/////////////////////////////////////////
+Call to Action
+////////////////////////////////////////*/
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -218,6 +242,10 @@ a:hover {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/*/////////////////////////////////////////
+Footer
+////////////////////////////////////////*/
+
 #footer, #footer a  {
     color: #f8f9fa;
 }
@@ -236,6 +264,10 @@ a:hover {
     padding: 0 5px;
 }
 
+/*/////////////////////////////////////////
+Media Queries
+////////////////////////////////////////*/
+
 @media (max-width: 575.98px) { 
     .mobile-list {
         display: block;
@@ -250,9 +282,9 @@ a:hover {
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) {  }
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {  }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .mobile-app {
