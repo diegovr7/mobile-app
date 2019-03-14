@@ -6,15 +6,15 @@ body {
 }
 
 section {
-    padding: 65px 10px;
+    padding: 70px 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #1a1a1a;
 }
 
-h1 { font-size: 50px; font-weight: 600;}
-h3 { font-size: 40px; font-weight: 300; }
+h1 { font-size: 54px; font-weight: 600;}
+h3 { font-size: 44px; font-weight: 300; }
 
 p {
     margin-bottom: 0px;
@@ -60,6 +60,10 @@ a:hover {
     max-width: 240px;
     margin: 0px 5px;
     min-height: 40px;
+    text-align: center;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
 .secondary-btn {
@@ -73,20 +77,30 @@ a:hover {
     max-width: 240px;
     margin: 0px 5px;
     min-height: 40px;
+    text-align: center;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
 }
 
 .primary-btn:hover {
     color: #ffffff;
     opacity: .95;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .secondary-btn:hover {
     background-color: #377dff;
     color: #ffffff;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
 }
 
-.topmargin-sm { margin-top: 30px; }
-.topmargin-lg { margin-top: 60px; }
+.topmargin-sm { margin-top: 30px !important; }
+.topmargin-lg { margin-top: 60px !important; }
 
 .text-light {
     color: #f8f9fa !important;
@@ -144,6 +158,10 @@ a:hover {
 .heading-block p {
     font-size: 18px;
     font-weight: 300;
+}
+
+#intro {
+    padding: 120px 0;
 }
 
 .pricing-box {
@@ -236,6 +254,14 @@ a:hover {
 
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
 
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .mobile-app {
+        max-width: 600px;
+    }
+}
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    .mobile-app {
+        max-width: 600px;
+    }
+}
