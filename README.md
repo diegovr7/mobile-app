@@ -9,21 +9,13 @@ Version 1.0.0
 # Download Options
 <ul>
   <li><a href="https://themesbootstrap.com.mx/templates/real-estate-template/index.html">Dowload latest version on Themes Bootstrap</a></li>
-  <li>Clone the repo: git clone https://github.com/diegovr7/real-estate.git</li>
+  <li>Clone the repo: git clone https://github.com/diegovr7/mobile-app.git</li>
  </ul>
 
 # External Resources
 <ul>
   <li>Iphone by <a href="https://www.behance.net/zituapar11f968">Zee Swift</a> - <a href="https://www.behance.net/gallery/74844509/iphone-mockup-psd-Free-PSD-download">download iphone</a> </li>
   <li>Ionic Icons (https://ionicons.com/)</li>
-  <li>House 1 image by <a href="https://unsplash.com/@sphericity">Étienne Beauregard-Riverin</a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>House 2 by <a href="https://unsplash.com/@jesseroberts">Jesse Roberts</a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>House 3 by <a href="https://unsplash.com/@flopt">Flo Pappert
-</a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>House interior 1 by <a href="https://unsplash.com/@averyklein">avery klein
-    </a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>House interior 2 by <a href="https://unsplash.com/@tutuwords">tutuwords</a>tu tu</a> from <a href="https://unsplash.com/">Unsplash</a></li>
-  <li>House interior 3 by <a href="https://unsplash.com/@heftiba">Toa Heftiba</a> from <a href="https://unsplash.com/@heftiba">Unsplash</a></li>
   <li>Google Font <a href="https://fonts.google.com/specimen/Titillium+Web">Titillium Web</a></li>
 </li>
 
