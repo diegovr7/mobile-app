@@ -3,11 +3,10 @@ body {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: .07em;
-    color: #495057;
 }
 
 section {
-    padding: 60px 10px;
+    padding: 65px 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +18,8 @@ h3 { font-size: 40px; font-weight: 300; }
 
 p {
     margin-bottom: 0px;
+    color: #495057;
+    line-height: 1.7;
 }
 
 dl, ol, ul {
@@ -57,7 +58,7 @@ a:hover {
     border: 1px solid #377dff;
     width: 100%;
     max-width: 240px;
-    margin: 0 auto;
+    margin: 0px 5px;
     min-height: 40px;
 }
 
@@ -70,7 +71,7 @@ a:hover {
     border: 1px solid #377dff;
     width: 100%;
     max-width: 240px;
-    margin: 0 auto;
+    margin: 0px 5px;
     min-height: 40px;
 }
 
@@ -87,6 +88,14 @@ a:hover {
 .topmargin-sm { margin-top: 30px; }
 .topmargin-lg { margin-top: 60px; }
 
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.text-dark {
+    color: #1a1a1a !important;
+}
+
 .bg-dark {
     background-color: #1a1a1a !important;
 }
@@ -101,6 +110,29 @@ a:hover {
 
 .divider {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-link {
+    font-weight: 300;
+    color: #495057;
+}
+
+.nav-link:hover {
+    color: #495057;
+    opacity: .95;
+}
+
+.logo-navbar {
+    width: 200px;
+    max-width: 220px;
 }
 
 .heading-block {
@@ -196,6 +228,7 @@ a:hover {
     }
     .primary-btn, .secondary-btn {
         max-width: none;
+        margin: 5px 0px;
     }
 }
 
